@@ -1,0 +1,341 @@
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+$body-bg: #fff;
+
+$color1: #606781;
+$color2: #5B5F68;
+$color3: #82B6C7;
+$color4: #7AA4B6;
+$color5: #5D6179;
+
+.menu {
+	background-color: $color1;
+	padding-bottom: 150px;
+	img {
+		width: 135px;
+		height: 57px;
+		position: absolute;
+		top: 45px;
+		left: 25px;
+    }
+	
+	.iconify {
+		color: white;
+		width: 39px;
+		height: 37px;
+		position: absolute;
+		right: 25px;
+		cursor: pointer;
+    }
+}
+
+.page1, .page5, .page6{
+	background-color: $color1;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.page2, .page3, .page4, .page7 {
+	background-color: white;
+	color: $color1;
+}
+
+.iconify{ 
+	width: 135px;
+	height: 57px;
+	padding-top: 50px;
+	padding-bottom: 200px;
+}
+
+.icones {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding-top: 50px;
+	padding-bottom: 250px;
+	justify-items: center;
+	align-items: center;
+	row-gap: 20px;
+	column-gap: 20px;
+
+	&2 {
+		padding-top: 50px;
+		padding-bottom: 250px;
+		text-align: center;
+    }
+	
+	&3 {
+		display: block;
+		padding-top: 50px;
+		padding-bottom: 100px;
+    }
+}
+	
+
+.titre2, .titre3, .titre4, .titre5, .titre6, .titre7 {
+	text-align: center;
+}
+
+.titre2 {
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+.titre5 p {
+	margin-top: 50px;
+}
+
+.page7 {
+	margin-top: 50px;
+}
+	
+h1 {
+		padding-bottom: 30px;
+    }
+	
+
+.page4 img {
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.page6 h3 {
+	padding-top: 30px;
+}
+
+.a-propos {
+	padding-bottom: 30px;
+};
+
+h1 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+p {
+	font-size: 18px;
+}
+
+.newsletter {
+    padding-top: 200px;
+	padding-bottom: 100px;
+}
+	
+.notif-mail {
+	padding-bottom: 100px;
+}
+
+.notif-tel {
+	padding-bottom: 50px;
+}
+
+.input {
+	height: 52px;
+	width: 353px;
+	text-align: center;
+	border: solid $color2;
+	color: $color2;
+	font-size: 15px;
+	font-style: bold;
+}
+
+.soumettre {
+	margin-bottom: 200px;
+	color: white;
+	background-color: $color3;
+	height: 52px;
+	width: 353px;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+}
+
+.so-api {
+	padding-top: 100px;
+	color: white;
+	background-color: $color1;
+}
+
+.acces-site {
+	height: 50px;
+	width: 254px;
+	border-radius: 15px;
+	font-size: 20px;
+	color: $color4;
+	background-color: $color1;
+	border: 3px solid $color4 ;
+	margin-bottom: 100px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.qrcode {
+	display: block;
+	margin: auto;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	width: 350px;
+	height: 350px;
+}
+
+.adresse {
+	padding-bottom: 30px;
+}
+
+.itineraire {
+	background-color: $color3;
+	height: 58px;
+	width: 290px;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+	margin-top: 30px;
+	margin-bottom: 100px;
+	cursor: pointer;
+}
+
+.google-map {
+	display: block;
+	margin: auto;
+	padding-top: 30px;
+	height: 363px;
+	width: 433px;
+}
+
+.img {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: auto;
+	column-gap: 10px;
+	row-gap: 10px;
+
+	&-services {
+		display: block;
+		margin: auto;
+		border-radius: 10px;
+		width: 185px;
+		height: 146px;
+    }
+	
+	span {
+		text-align: center;
+		color: $color5;
+		padding-bottom: 30px;
+		font-size: 20px;
+		font-weight: 700;
+    }
+}
+
+@media screen and (min-width: 750px)  {
+    .icones {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 250px;
+    }
+    .img-services {
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+        width: 350px;
+        height: 280px;
+    }
+    .google-map {
+        display: block;
+        margin: auto;
+        padding-top: 30px;
+        height: 460px;
+        width: 600px;
+        
+    }
+    .menu img {
+        width: 135px;
+        height: 57px;
+        position: absolute;
+        top: 45px;
+        left: 125px;
+    }
+    
+    .menu .iconify {
+        color: white;
+        width: 39px;
+        height: 37px;
+        position: absolute;
+        right: 125px;
+        cursor: pointer;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    
+    h3 {
+        font-size: 22px;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1250px)  {
+    .icones {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 250px;
+    }
+    .img-services {
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+        width: 600px;
+        height: 450px;
+    }
+    .google-map {
+        display: block;
+        margin: auto;
+        padding-top: 30px;
+        height: 600px;
+        width: 800px;
+    }
+    .menu img {
+        width: 135px;
+        height: 57px;
+        position: absolute;
+        top: 45px;
+        left: 225px;
+    }
+    
+    .menu .iconify {
+        color: white;
+        width: 39px;
+        height: 37px;
+        position: absolute;
+        right: 225px;
+        cursor: pointer;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    
+    h3 {
+        font-size: 22px;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+}
+	
+

@@ -1,0 +1,152 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  background-color: #606781;
+}
+
+.page1, .page5, .page6 {
+  background-color: #606781;
+  color: white;
+  padding-top: 50px;
+}
+
+.page2, .page3, .page4, .page7 {
+  background-color: white;
+  color: #606781;
+}
+
+#logo-so-api {
+  width: 135px;
+  height: 57px;
+}
+
+.iconify {
+  width: 135px;
+  height: 57px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.icones {
+  text-align: center;
+}
+
+#menu {
+  color: white;
+  width: 39px;
+  height: 37px;
+}
+
+.titre1, .titre2, .titre3, .titre4, .titre5, .titre6, .titre7 {
+  text-align: center;
+}
+
+.titre2 {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.page7 {
+  margin-top: 100px;
+}
+
+.a-propos {
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.newsletter {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.notif-mail {
+  padding-bottom: 100px;
+}
+
+.notif-tel {
+  padding-bottom: 50px;
+}
+
+.input {
+  height: 52px;
+  width: 353px;
+  text-align: center;
+  border: solid #5B5F68;
+  color: #5B5F68;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.soumettre {
+  margin-bottom: 200px;
+  color: white;
+  background-color: #82B6C7;
+  height: 52px;
+  width: 353px;
+  font-size: 18px;
+  border: none;
+}
+
+.so-api {
+  color: white;
+  background-color: #5D6179;
+}
+
+.acces-site {
+  height: 50px;
+  width: 254px;
+  border-radius: 15px;
+  font-size: 20px;
+  color: #7AA4B6;
+  background-color: #5D6179;
+  border: 3px solid #7AA4B6;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.img-services {
+  width: 185px;
+  height: 146px;
+}
+
+.itineraire {
+  background-color: #82B6C7;
+  height: 58px;
+  width: 290px;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.titre5 p {
+  margin-top: 100px;
+}
